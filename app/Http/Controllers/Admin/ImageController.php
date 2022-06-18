@@ -39,8 +39,8 @@ class ImageController extends Controller
                     'is:guest' => $builder->whereNull('user_id'),
                     'is:adminer' => $builder->whereHas('user', fn (Builder $builder) => $builder->where('is_adminer', 1)),
                     'order:earliest' => $builder->orderBy('created_at'),
-                    'order:utmost' => $builder->orderByDesc('size'),
-                    'order:least' => $builder->orderBy('size'),
+                    'order:utmost' => $builder->orderBy('size'),
+                    'order:least' => $builder->orderByDesc('size'),
                     default => 0,
                 };
 

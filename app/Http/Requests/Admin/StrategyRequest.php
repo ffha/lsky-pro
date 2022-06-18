@@ -54,7 +54,6 @@ class StrategyRequest extends FormRequest
             'intro' => 'max:2000',
             'key' => 'required|integer',
             'configs.url' => ['required', 'url'],
-            'configs.queries' => '',
         ];
 
         return array_merge($array, match((int)$this->input('key')) {
@@ -142,7 +141,6 @@ class StrategyRequest extends FormRequest
             'intro' => '简介',
             'key' => '策略',
             'configs.url' => '访问网址',
-            'configs.queries' => 'Url 额外参数',
         ];
 
         return array_merge($array, match((int)$this->input('key')) {

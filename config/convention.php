@@ -13,7 +13,6 @@ use App\Enums\Scan\TencentOption;
 use App\Enums\UserConfigKey;
 use App\Enums\Watermark\FontOption;
 use App\Enums\Watermark\ImageOption;
-use App\Enums\Watermark\Mode;
 
 return [
     'app' => [
@@ -76,7 +75,6 @@ return [
             ],
         ],
         GroupConfigKey::WatermarkConfigs => [
-            'mode' => Mode::Overlay,
             'driver' => 'font',
             'drivers' => [
                 'font' => [

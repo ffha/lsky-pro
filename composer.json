@@ -27,7 +27,7 @@
         "tencentcloud/ims": "^3.0",
         "wispx/flysystem-upyun": "^1.0",
         "zing/flysystem-oss": "^2.1",
-        "ext-imagick": "*",
+        "ext-imagick": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

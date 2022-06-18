@@ -27,7 +27,9 @@
         "tencentcloud/ims": "^3.0",
         "zing/flysystem-oss": "^2.1",
         "ext-imagick": "*",
-	"ext-bcmath": "*"
+	"ext-bcmath": "*",
+	"ext-sqlite3": "*",
+	"ext-mysqlnd": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

@@ -26,7 +26,8 @@
         "overtrue/flysystem-qiniu": "^3.0",
         "tencentcloud/ims": "^3.0",
         "zing/flysystem-oss": "^2.1",
-        "ext-imagick": "*"
+        "ext-imagick": "*",
+	"ext-bcmath": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

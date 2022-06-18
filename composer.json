@@ -25,7 +25,6 @@
         "overtrue/flysystem-cos": "^5.0",
         "overtrue/flysystem-qiniu": "^3.0",
         "tencentcloud/ims": "^3.0",
-        "wispx/flysystem-upyun": "^1.0",
         "zing/flysystem-oss": "^2.1",
         "ext-imagick": "*"
     },
@@ -73,7 +72,8 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "secure-http": false
     },
     "minimum-stability": "dev",
     "prefer-stable": true
